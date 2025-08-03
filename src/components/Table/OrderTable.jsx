@@ -4,34 +4,34 @@ const OrderTable = () => {
   const orders = [
     { 
       id: 101, 
-      customer: "Alice Johnson", 
+      customer: "Umer Daud", 
       total: 250.0, 
-      status: "Pending",
-      date: "2023-05-15",
+      status: "Completed",
+      date: "2025-08-01",
       items: 3
     },
     { 
       id: 102, 
-      customer: "Bob Smith", 
+      customer: "Umair Ejaz", 
       total: 120.5, 
       status: "Delivered",
-      date: "2023-05-14",
+      date: "2025-07-31",
       items: 2
     },
     { 
       id: 103, 
-      customer: "Charlie Brown", 
+      customer: "Raza Sherazi", 
       total: 89.99, 
       status: "Shipped",
-      date: "2023-05-16",
+      date: "2025-07-16",
       items: 1
     },
     { 
       id: 104, 
-      customer: "Diana Prince", 
+      customer: "Aqib Chohan", 
       total: 320.75, 
       status: "Processing",
-      date: "2023-05-17",
+      date: "2025-07-17",
       items: 5
     },
   ];
