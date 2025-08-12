@@ -134,7 +134,7 @@ const Customers = () => {
   const stats = [
     { title: "Total Customers", value: "2,450", change: "+12.5%", icon: <FiUsers className="text-indigo-500" />, color: "bg-indigo-100" },
     { title: "New This Month", value: "345", change: "+8.2%", icon: <FiActivity className="text-emerald-500" />, color: "bg-emerald-100" },
-    { title: "Repeat Customers", value: "1,245", change: "+4.1%", icon: <FiShoppingCart className="text-purple-500" />, color: "bg-purple-100" },
+    { title: "Repeat Customer", value: "1,245", change: "+4.1%", icon: <FiShoppingCart className="text-purple-500" />, color: "bg-purple-100" },
     { title: "Avg. Satisfaction", value: "4.7", change: "+0.2", icon: <FiStar className="text-amber-500" />, color: "bg-amber-100" }
   ];
 
@@ -172,7 +172,7 @@ const Customers = () => {
                       {stat.change}
                     </p>
                   </div>
-                  <div className={`p-3 rounded-lg ${stat.color}`}>
+                  <div className={`h-11 mt-5 p-3 rounded-lg ${stat.color}`}>
                     {stat.icon}
                   </div>
                 </div>

@@ -113,7 +113,7 @@ const Analytics = () => {
                       {stat.change} <FiTrendingUp className="ml-1" />
                     </p>
                   </div>
-                  <div className={`p-3 rounded-lg ${stat.color}`}>
+                  <div className={`h-12 mt-5 p-3 rounded-lg ${stat.color}`}>
                     {stat.icon}
                   </div>
                 </div>

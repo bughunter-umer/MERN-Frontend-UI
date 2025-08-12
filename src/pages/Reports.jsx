@@ -291,7 +291,7 @@ const Reports = () => {
                       )}
                     </p>
                   </div>
-                  <div className="p-3 rounded-lg bg-slate-100 text-slate-600">
+                  <div className="h-11 mt-5 p-3 rounded-lg bg-slate-100 text-slate-600">
                     {card.icon}
                   </div>
                 </div>
